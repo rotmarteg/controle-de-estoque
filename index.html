@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Expedição Fanavid</title>
+</head>
+<body>
+<div class="container">
+<div class="container__conteudo">
+<div class="container__informacoes">
+<h1>Gerenciador de estoque</h1>
+<p>Estoque atual: <span id="valor-saldo">...</span></p>
+
+<input type="number" id="quantidade" class="container__input" placeholder="Qtd">
+
+<div class="container__botoes">
+<button onclick="registrarEntrada()" class="container__botao entrada">Entrada</button>
+<button onclick="registrarSaida()" class="container__botao saida">Saída</button>
+</div>
+
+<div id="secao-historico">
+<h3>Últimos Movimentos</h3>
+<ul id="lista-historico"></ul>
+</div>
+</div>
+<img src="./img/ia.png" alt="Personagem IA" class="container__imagem-pessoa">
+</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

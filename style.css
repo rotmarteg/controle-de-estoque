@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Chakra Petch', sans-serif;
+}
+
+body {
+background-color: #000;
+background-image: url('./img/bg.png');
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container {
+background: rgba(0, 0, 0, 0.8);
+padding: 30px;
+border-radius: 20px;
+border: 2px solid #00d4ff;
+box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+text-align: center;
+max-width: 400px;
+}
+
+.container__imagem-pessoa {
+width: 200px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.container__input {
+width: 100%;
+padding: 12px;
+margin: 15px 0;
+border-radius: 8px;
+border: none;
+font-size: 1.1rem;
+text-align: center;
+}
+
+.container__botoes {
+display: flex;
+gap: 10px;
+}
+
+.container__botao {
+flex: 1;
+padding: 12px;
+border: none;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+color: white;
+}
+
+.entrada { background-color: #28a745 !important; }
+.saida { background-color: #dc3545 !important; }
+
+/* Estilo do Histórico */
+#secao-historico {
+margin-top: 25px;
+border-top: 1px solid #333;
+padding-top: 15px;
+}
+
+#lista-historico {
+list-style: none;
+text-align: left;
+max-height: 150px;
+overflow-y: auto;
+}
+
+#lista-historico li {
+background: rgba(255, 255, 255, 0.1);
+margin-bottom: 5px;
+padding: 8px;
+border-radius: 5px;
+font-size: 0.8rem;
+}
