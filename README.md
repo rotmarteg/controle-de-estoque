@@ -1,12 +1,12 @@
-Sistema de Controle de Estoque Interativo
-Aplicação desenvolvida para monitoramento em tempo real de inventário, focada em facilitar a entrada e saída de insumos de forma organizada e visual.
+📦 Controle de Estoque Interativo
+Aplicação desenvolvida para otimizar a gestão de inventário, permitindo o acompanhamento dinâmico de entradas e saídas de materiais de forma visual e organizada.
 🎯 Proposta do Projeto
-Eliminar a dependência de planilhas estáticas e fornecer uma interface dinâmica onde o usuário pode visualizar o status do estoque instantaneamente, evitando rupturas ou excessos de mercadoria.
+Substituir controles manuais e planilhas estáticas por uma ferramenta digital acessível, focada em evitar a ruptura de estoque e facilitar a conferência de itens no dia a dia operacional.
 💡 Funcionalidades Principais
-• Dashboard Visual: Cards com indicadores de níveis de estoque.
-• Gestão de Itens: Adição, edição e remoção de produtos com atualização reativa.
+• Gestão de Itens: Adição, edição e remoção de produtos com atualização em tempo real.
+• Dashboard Visual: Cards informativos para monitoramento rápido dos níveis de estoque.
 • Interface Responsiva: Otimizada para uso em desktops e dispositivos móveis (tablets/celulares no galpão).
-🛠️ Tecnologias
-• Front-end: HTML5, CSS3 e JavaScript (Manipulação de DOM).
+• Deploy Automatizado: Publicado via Vercel para acesso imediato de qualquer local.
+🛠️ Tecnologias Utilizadas
+• Linguagens: JavaScript (Lógica e Manipulação de DOM), HTML5 e CSS3.
 • Hospedagem: Vercel (CI/CD).
-
