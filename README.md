@@ -9,3 +9,4 @@ Eliminar a dependência de planilhas estáticas e fornecer uma interface dinâmi
 🛠️ Tecnologias
 • Front-end: HTML5, CSS3 e JavaScript (Manipulação de DOM).
 • Hospedagem: Vercel (CI/CD).
+
